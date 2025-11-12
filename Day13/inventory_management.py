@@ -1,4 +1,3 @@
-# Base Class
 class Store:
     def __init__(self):
         # Encapsulation: Private attributes

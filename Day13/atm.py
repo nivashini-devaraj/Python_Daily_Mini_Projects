@@ -1,4 +1,3 @@
-# Base Class
 class BankAccount:
     def __init__(self):
         self.balance = 0  # starting balance is 0
@@ -26,7 +25,6 @@ class ATM(BankAccount):
         super().__init__()  # call the parent constructor
 
 
-# --- Example Use ---
 user = ATM()
 
 user.deposit(1000)       # add money
